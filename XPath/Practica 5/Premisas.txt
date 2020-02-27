@@ -1,0 +1,39 @@
+1 Nombres de los alumnos menores de edad (<18)
+
+2 Vecinos (mismo codigo postal) que Juan Peralta Altozano
+
+3 Nombres de los alumnos que cursan un grado medio
+
+4 Nombres de las alumnas (Mujeres)
+
+5 Nombre de las escuelas sin director
+
+6 Profesores de Sebastian Carrascosa Seves
+
+7 Nombre de los centros donde estudian los vecinos de Juan Peralta Altozano
+
+8 Nombres de los alumnos que estudian en un grado universitario
+
+9 Edad del alumnos que estudia en el último centro registrado
+
+10 Estudios que están cursando los alumnos que solo han completado los estudios de la secundaria obligatoria
+
+11 Direccion de los alumnos menores de edad y que tengan a Julio Florindo Navarro de Profesor
+
+12 Nombre del profesorado que imparte clases en escuelas donde únicamente se cursa la Enseñanza Secundaria Obligatoria
+
+13 Nombre del alumnado sin ningún estudio completado
+
+14 Nombres del director o los directores a cargo del centro o los centros de los alumnos menores de edad
+
+15 Formación que imparte el profesor Pablo Rossiñol Ruiz
+
+16 Alumnos que ya han concluido sus estudios de Bachillerato
+
+17 Código postal de los alumnos que cursan en el I.E.S. Nervión
+
+18 Sexo y edad de los alumnos de la primera escuela
+
+19 Profesores y director del alumno que vive en la Calle Aragon
+
+20 Nombre de los alumnos que no estén en un grado medio y hayan superado la E.S.O. y Bachillerato.

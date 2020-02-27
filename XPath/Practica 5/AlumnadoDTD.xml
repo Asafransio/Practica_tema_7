@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<!DOCTYPE alumnado SYSTEM "alumnado.dtd">
+<alumnado>
+	
+	<escuelas>
+		<escuela codescuela="e01">
+			<nombre>I.E.S. Murillo</nombre>
+			<form codigoestudio="M02 M01">E.S.O. y Bachillerato</form>
+			<director>Alberto Garcia Fuentes</director>
+			<profesorado>
+				<profesor>Pablo Romero Diaz</profesor>
+				<profesor>Sylvana Rodriguez Rodriguez</profesor>
+				<profesor>Juana Weiss Borrallo</profesor>
+			</profesorado>
+		</escuela>
+		<escuela codescuela="e02">
+			<nombre>I.E.S.Martinez Montañes</nombre>
+			<form codigoestudio="M02 M01">E.S.O. y Bachillerato Cientifico</form>
+			<director>Juan Valdes Durango</director>
+			<profesorado>
+				<profesor>Sandra Nevado Sans</profesor>
+				<profesor>Miguel Pabon Carrasco</profesor>
+				<profesor>Julio Florindo Navarro</profesor>
+			</profesorado>
+		</escuela>
+		<escuela codescuela="e03">
+			<nombre>I.E.S. Beatriz de Suabia</nombre>
+			<form codigoestudio="M01">E.S.O.</form>
+			<director>Salvador Raya Sanchez</director>
+			<profesorado>
+				<profesor>Miguel Capilla Jimenez</profesor>
+				<profesor>Jose Manuel Villabon Puyol</profesor>
+				<profesor>Antonio Jose Cabezas Arenas</profesor>
+			</profesorado>
+		</escuela>
+		<escuela codescuela="e04">
+			<nombre>I.E.S Nervion</nombre>
+			<form codigoestudio="M03">Desarrollo de Aplicaciones Web</form>
+			<director>Amador Robles Cepeda</director>
+			<profesorado>
+				<profesor>Andrea Gomez Perez</profesor>
+				<profesor>Pedro Carrero Rivero</profesor>
+				<profesor>Jose Blanco del Valle</profesor>
+			</profesorado>
+		</escuela>
+		<escuela codescuela="e05">
+			<nombre>I.E.S. Portaceli</nombre>
+			<form codigoestudio="M01">E.S.O.</form>
+			<director>Juan Manuel Benitez Alvarez</director>
+			<profesorado>
+				<profesor>Antonio Duran Balderas</profesor>
+				<profesor>David Borrallo</profesor>
+				<profesor>Sara Garcia Garcia</profesor>
+			</profesorado>
+		</escuela>
+		<escuela codescuela="e06">
+			<nombre>Grupo Studium</nombre>
+			<form codigoestudio="M04">Desarrollo de aplicaciones multiplataformas</form>
+			<profesorado>
+				<profesor>Jorge Rodriguez Mareas</profesor>
+				<profesor>Pablo Rossiñol Ruiz</profesor>
+				<profesor>Maria Jose Martinez</profesor>
+			</profesorado>
+		</escuela>
+	</escuelas>
+
+	
+	<formaciones>
+		<formacion codid="M01">E.S.O</formacion>
+		<formacion codid="M02">Bachillerato</formacion>
+		<formacion codid="M03">Grado Medio</formacion>
+		<formacion codid="M04">Grado Superior</formacion>
+		<formacion codid="M05">Estudios Universitarios</formacion>
+	</formaciones>
+
+	
+	<alumnos>
+		<alumno id="a001" sexo="Hombre">
+			<nombre>Victor Peña Sosa</nombre>
+			<direccion cp="41021">Calle Toledo</direccion>
+			<edad>21</edad>
+			<datosAcademicos>
+				<cursando ref="M03">Primero de desarrollo de aplicaciones web</cursando>
+				<centro refescuela="e04">I.E.S. Nervion</centro>
+				<estudiosCompletados ref="M01">E.S.O.</estudiosCompletados>
+			</datosAcademicos>
+		</alumno>
+		<alumno id="a002" sexo="Hombre">
+			<nombre>Sebastian Carrascosa Seves</nombre>
+			<direccion cp="41006">Calle Tomas Perez</direccion>
+			<edad>22</edad>
+			<datosAcademicos>
+				<cursando ref="M04">Primero de desarrollo de aplicaciones multiplataformas</cursando>
+				<centro refescuela="e06">Grupo Studium</centro>
+				<estudiosCompletados ref="M01 M02">E.S.O. y Bachillerato cientifico</estudiosCompletados>
+			</datosAcademicos>
+		</alumno>
+		<alumno id="a003" sexo="Hombre">
+			<nombre>Carmen Torres Carrasco</nombre>
+			<direccion cp="41004">Calle Letanias</direccion>
+			<edad>17</edad>
+			<datosAcademicos>
+				<cursando ref="M02">Bachillerato de Artes</cursando>
+				<centro refescuela="e01">I.E.S. Murillo</centro>
+				<estudiosCompletados ref="M01">E.S.O.</estudiosCompletados>
+			</datosAcademicos>
+		</alumno>
+		<alumno id="a004" sexo="Hombre">
+			<nombre>Francisco Raya Montero</nombre>
+			<direccion cp="41006">Calle Aragon</direccion>
+			<edad>15</edad>
+			<datosAcademicos>
+				<cursando ref="M01">E.S.O.</cursando>
+				<centro refescuela="e05">I.E.S. Portaceli</centro>
+			</datosAcademicos>
+		</alumno>
+		<alumno id="a005" sexo="Mujer">
+			<nombre>Esteher del Pino Contreras</nombre>
+			<direccion cp="41020">Calle Cristo Redentor</direccion>
+			<edad>16</edad>
+			<datosAcademicos>
+				<cursando ref="M01">E.S.O.</cursando>
+				<centro refescuela="e02">I.E.S. Martinez Montañes</centro>
+			</datosAcademicos>
+		</alumno>
+		<alumno id="a006" sexo="Mujer">
+			<nombre>Veronica Tabladas Pico</nombre>
+			<direccion cp="41007">Calle Arroyo</direccion>
+			<edad>18</edad>
+			<datosAcademicos>
+				<cursando ref="M02">Bachillerato de Ciencias</cursando>
+				<centro refescuela="e02">I.E.S. Martinez Montañes</centro>
+				<estudiosCompletados ref="M01">E.S.O.</estudiosCompletados>
+			</datosAcademicos>
+		</alumno>
+		<alumno id="a007" sexo="Hombre">
+			<nombre>Manuel Lorenzo Hidalgo</nombre>
+			<direccion cp="41010">Calle Santiago de Compostela</direccion>
+			<edad>21</edad>
+			<datosAcademicos>
+				<cursando ref="M05">Segundo de Ingenieria Informatica de Computadoras</cursando>
+				<facultad>Escuela Superior de Ingenieria Informatica</facultad>
+				<estudiosCompletados ref="M01 M03 M04">E.S.O., Grado medio de DAM y Grado superior de DAM</estudiosCompletados>
+			</datosAcademicos>
+		</alumno>
+		<alumno id="a008" sexo="Mujer">
+			<nombre>Carmen Baena Gutierrez</nombre>
+			<direccion cp="41008">Avenida de la Paz</direccion>
+			<edad>21</edad>
+			<datosAcademicos>
+				<cursando ref="M05">Segundo de Historia</cursando>
+				<facultad>Facultad de Historia de la Universidad de Sevilla</facultad>
+				<estudiosCompletados ref="M01 M02">E.S.O y Bachillerato de Letras</estudiosCompletados>
+			</datosAcademicos>
+		</alumno>
+		<alumno id="a009" sexo="Mujer">
+			<nombre>Marta Alvarez Cosano</nombre>
+			<direccion cp="41006">Avenida Francisco Dorotea</direccion>
+			<edad>19</edad>
+			<datosAcademicos>
+				<cursando ref="M02">Bachillerato de Letras</cursando>
+				<centro refescuela="e01">I.E.S. Murillo</centro>
+			</datosAcademicos>
+		</alumno>
+		<alumno id="a010" sexo="Hombre">
+			<nombre>Juan Peralta Altozano</nombre>
+			<direccion cp="41006">Calle Dante</direccion>
+			<edad>16</edad>
+			<datosAcademicos>
+				<cursando ref="M01">E.S.O.</cursando>
+				<centro refescuela="e03">I.E.S. Beatriz de Suabia</centro>
+			</datosAcademicos>
+		</alumno>
+		<alumno id="a011" sexo="Mujer">
+			<nombre>Paula Sanchez del Toro</nombre>
+			<direccion cp="41003">Calle Estrella</direccion>
+			<edad>19</edad>
+			<datosAcademicos>
+				<cursando ref="M03">Segundo de desarrollo de aplicaciones Web</cursando>
+				<centro refescuela="e04">I.E.S. Nervion</centro>
+				<estudiosCompletados ref="M01">E.S.O.</estudiosCompletados>
+			</datosAcademicos>
+		</alumno>
+		<alumno id="a012" sexo="Hombre">
+			<nombre>Agustín Duarte Mejide</nombre>
+			<direccion cp="41006">Avenida Afan de Rivera</direccion>
+			<edad>19</edad>
+			<datosAcademicos>
+				<cursando ref="M03">Primero de Desarrollo de aplicaciones Web</cursando>
+				<centro refescuela="e04">I.E.S. Nervion</centro>
+				<estudiosCompletados ref="M01 M02">E.S.O. y Bachillerato Cientifico</estudiosCompletados>
+			</datosAcademicos>
+		</alumno>
+	</alumnos>
+</alumnado>
