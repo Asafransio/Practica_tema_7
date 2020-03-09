@@ -1,0 +1,8 @@
+Linea: *idLinea, precioPiqueSinBonobusLinea, precioPiqueConBonobusLinea, salidaLinea, destinoLinea, distanciaSalidaDestinoLinea
+Bus: *idBus, horasServicioBus, modeloBus, aforoBus, matriculaBus, idLineaFK1
+Parada: *idParada, direccionParada, distanciaParadaAnterior, distanciaParadaSiguiente
+Conductor:*idConductor, nombreConductor, apellidosConductor, dniConductor, fechaNacimientoConductor, fechaAltaConductor, horasServicioConductor, domicilioConductor, telefonoConductor.
+Mantenimiento: *idMantenimiento, descripcionMantenimiento, idBusFK2
+--------------------------------------------------------------
+Conduce: *idConductorFK3, *idBusFK4, horasCambioConductor
+Para en: *idLineaFK5, *idParadaFK6

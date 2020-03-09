@@ -1,0 +1,5 @@
+Empleados:#idEmpleado, nombreEmpleado, apellidosEmpleado, dniEmpleado, domicilioEmpleado, poblacionEmpleado, provinciaEmpleado, telefonoEmpleado, fechaNacimientoEmpleado, fechaAltaEmpleado, cargoEmpleado
+Edificios:#idEdificio, direccionEdificio, localidadEdificio, provinciaEdificio, cpEdificio, metrosCuadradosEdificio, tipoSueloEdificio, numeroAscensoresEdificio, numeroTramosEscaleraEdificio
+Factura:#idFactura, fechaFactura, importeTotalFactura, idEdificioFK1
+---
+Trabajan:#idEmpleadoFK2, #idEdificioFK3
